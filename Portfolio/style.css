@@ -27,6 +27,11 @@ body
    color:var(var(--text-color));
 }
 
+h1 {
+  font-size: 5rem;
+color: white;
+}
+
 .logo img{
     width: 20rem; height: auto;
 }
@@ -566,6 +571,9 @@ color: white;}
 .wtp-inf .btn 
 { font-size: 2rem;
 margin-top: 1rem;}
+.showcasewebsites
+{ margin-top: 50px;
+  margin-bottom: 50px;}
 
 @media(max-width: 1000px )
 { html { font-size: 45%;}
@@ -576,6 +584,13 @@ section {
 .popUp-box
 {flex-direction: column;}
 }
+.showcaseTitle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.showcase 
+{ margin-top: 50px;}
 
 @media(max-width: 750px )
 {
@@ -626,7 +641,13 @@ section {
   .close:hover 
   { text-decoration: underline;}
 }
-
+.seemore {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
 
 @media(max-width:560px)
 { .btn 
